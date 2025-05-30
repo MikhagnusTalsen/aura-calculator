@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Courier New', monospace;
-  background: url('images/bg.png') no-repeat center center fixed;
+  background: url('images/bg.webp') no-repeat center center fixed;
   background-size: 100% 100%; /* stretch width and height */
   color: #fff;
   display: flex;
