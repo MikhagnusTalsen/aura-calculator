@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Courier New', monospace;
-  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F962%2F682%2F614.png&f=1&nofb=1&ipt=102d62ccf9eb3c0280be3d03baaaec86ac42984dfb6f9e594db76a88d84e4508') no-repeat center center fixed;
+  background: url('images/bg.png') no-repeat center center fixed;
   background-size: 100% 100%; /* stretch width and height */
   color: #fff;
   display: flex;
