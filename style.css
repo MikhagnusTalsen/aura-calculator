@@ -3,7 +3,8 @@
 body {
   font-family: 'Courier New', monospace;
   background: url('images/bg.webp') no-repeat center center fixed;
-  background-size: 100% 100%; /* stretch width and height */
+  background-size: 100% 100%;
+  /* stretch width and height */
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -15,23 +16,26 @@ body {
 
 
 h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     backdrop-filter: blur(8px);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(8px);
   font-weight: 800;
   font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 30px;
-  border-bottom: 3px solid #e63946; /* subtle red underline */
+  border-bottom: 3px solid #e63946;
+  /* subtle red underline */
   padding-bottom: 8px;
-  color:#00ca03
+  color: #00ca03
 }
 
 form {
-  background-color: rgb(255, 255, 255, 0.5); /* semi-transparent white */
+  background-color: rgb(255, 255, 255, 0.5);
+  /* semi-transparent white */
   padding: 25px 30px;
   width: 340px;
-  border: 2px solid #e63946; /* subtle red border */
+  border: 2px solid #e63946;
+  /* subtle red border */
   box-sizing: border-box;
 }
 
@@ -83,15 +87,29 @@ button {
 button:hover {
   background: #c12738;
 }
+
 #result {
-    display: none;
-    margin-top: 20px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.8); /* semi-transparent white */
-    border: 2px solid #e63946; /* subtle red border */
-    width: 340px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #222;
+  display: none;
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  /* semi-transparent white */
+  border: 2px solid #e63946;
+  /* subtle red border */
+  width: 340px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.error {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: none;
+  /* initially hidden */
+
 }

@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Aura Calculator</title>
-        <link rel = stylesheet href = "style.css" />
-    </head>
 
-    <body>
-        <h1>Discover how much AURA you possess 🗿</h1>
-        <form>
-            <label> Weight: </label>
-            <input type = "text" id = "weight"placeholder = " in kgs" required />
-            <br>
-            <label> Height: </label>
-            <input type = "text" id = "height" placeholder = " in cms" required />
-            <br>
-            <label> Looks: </label>
-            <input type = "number" id = "looks" placeholder = " rate yourself" min = "0" max = "10" required />
-            <br>
-            <label> Net Worth: </label>
-            <input type = "text" id = "networth"placeholder = " in INR" required />
-            <br>
-            <button type ="submit" id = "button">Calculate</button>
-        </form>
-        <p id = "result"></p>
-        <script src = "script.js"></script>
-    </body>
+<head>
+    <title>Aura Calculator</title>
+    <link rel=stylesheet href="style.css" />
+</head>
+
+<body>
+    <h1>Discover how much AURA you possess 🗿</h1>
+    <form>
+        <label> Weight: </label>
+        <input type="text" id="weight" placeholder=" in kgs" required />
+        <p id="weighterror" class = "error"></p>
+        <br>
+        <label> Height: </label>
+        <input type="text" id="height" placeholder=" in cms" required />
+        <p id="heighterror" class = "error"></p>
+
+        <br>
+        <label> Looks: </label>
+        <input type="number" id="looks" placeholder=" rate yourself" min="0" max="10" required />
+        <p id="lookserror" class = "error"></p>
+
+        <br>
+        <label> Net Worth: </label>
+        <input type="text" id="networth" placeholder=" in INR" required />
+        <p id="networtherror" class = "error"></p>
+
+        <br>
+        <button type="submit" id="button">Calculate</button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+
 </html>
