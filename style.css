@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+  font-family: 'Courier New', monospace;
+  background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F962%2F682%2F614.png&f=1&nofb=1&ipt=102d62ccf9eb3c0280be3d03baaaec86ac42984dfb6f9e594db76a88d84e4508') no-repeat center center fixed;
+  background-size: 100% 100%; /* stretch width and height */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     backdrop-filter: blur(8px);
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #e63946; /* subtle red underline */
+  padding-bottom: 8px;
+  color:#00ca03
+}
+
+form {
+  background-color: rgb(255, 255, 255, 0.5); /* semi-transparent white */
+  padding: 25px 30px;
+  width: 340px;
+  border: 2px solid #e63946; /* subtle red border */
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #222;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 9px 10px;
+  margin-bottom: 18px;
+  border: 2px solid #222;
+  background: #fff;
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #e63946;
+  background: #fff;
+  color: #e63946;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  background: #e63946;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.15rem;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #c12738;
+}
+#result {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+    border: 2px solid #e63946; /* subtle red border */
+    width: 340px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222;
+}
